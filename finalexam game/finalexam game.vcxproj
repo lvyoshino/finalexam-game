@@ -144,6 +144,9 @@
     <ClCompile Include="Race.cpp" />
     <ClCompile Include="Items.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FantasyGame.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
