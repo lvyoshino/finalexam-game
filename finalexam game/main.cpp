@@ -3,17 +3,18 @@
 
 #include "FantasyGame.h"//include head file
 #include "showFunction.h"
+#include "Item.h"
 int main()
 {
 	int commandValue = 0;//the command value
 	int roleSelect = 0;//user choose a player 
 	char commandOrder;//user choose a order in current command
-	role player;//instantiation a role
+	Role player;//instantiation a role
 	while (roleSelect <1 || roleSelect>5) {
 		showMenu();
 		cin >> roleSelect;
 		cinerror();
-		if (roleSelect >> 1 && roleSelect << 5) {
+		if (roleSelect >=1 && roleSelect <= 5) {
 			player.init(roleSelect);
 		}
 		showCommandSelect(roleSelect, &commandValue, player);

@@ -6,7 +6,8 @@
 //output change the health of two users
 
 #include "FantasyGame.h"
-inline void role::healthState(int reduceHealth)
+using namespace std;
+inline void Role::healthState(int reduceHealth)
 {
 	health -= reduceHealth;
 	//judge if health less 0. This part can also put main.
@@ -14,7 +15,7 @@ inline void role::healthState(int reduceHealth)
 		cout << "The game is over" << endl;
 	}
 }
-inline int role::getInfoRole()
+inline int Role::getInfoRole()
 {
 	return race;
 }
@@ -23,7 +24,7 @@ void combatTest()
 {
 	cout << "This is a test for combat function\n";
 }
-void roleCombatdata(role user1,role user2)
+void roleCombatdata(Role user1, Role user2)
 {
 	strcpy_s(user1.name, "a");
 	cout << "This is a test for combat function\n";
