@@ -3,7 +3,8 @@
 
 #include "FantasyGame.h"//include head file
 #include "showFunction.h"
-#include "Item.h"
+using namespace std;
+//#include "Item.h"
 int main()
 {
 	int commandValue = 0;//the command value

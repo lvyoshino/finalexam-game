@@ -37,7 +37,7 @@ void showCommandSelect(int roleSelect, int* commandValue, Role player)
 		cout << "" << endl;
 		++* commandValue;
 		printf("It is daytime (%d) \n", *commandValue);
-		player.getDescription();
+		cout<<player.getDescription()<<endl;
 		showCommandNote();
 		break;
 		//Elf
@@ -45,7 +45,7 @@ void showCommandSelect(int roleSelect, int* commandValue, Role player)
 		cout << "" << endl;
 		++* commandValue;
 		printf("It is daytime (%d) \n", *commandValue);
-		player.getDescription();
+		cout << player.getDescription() << endl;
 		showCommandNote();
 		break;
 		//Dwarf
@@ -53,7 +53,7 @@ void showCommandSelect(int roleSelect, int* commandValue, Role player)
 		cout << "" << endl;
 		++* commandValue;
 		printf("It is daytime (%d) \n", *commandValue);
-		player.getDescription();
+		cout << player.getDescription() << endl;
 		showCommandNote();
 		break;
 		//Hobbit
@@ -61,7 +61,7 @@ void showCommandSelect(int roleSelect, int* commandValue, Role player)
 		cout << "" << endl;
 		++* commandValue;
 		printf("It is daytime (%d) \n", *commandValue);
-		player.getDescription();
+		cout << player.getDescription() << endl;
 		showCommandNote();
 		break;
 		//Orc
@@ -69,7 +69,7 @@ void showCommandSelect(int roleSelect, int* commandValue, Role player)
 		cout << "" << endl;
 		++* commandValue;
 		printf("It is daytime (%d) \n", *commandValue);
-		player.getDescription();
+		cout << player.getDescription() << endl;
 		//cout << "Player: Orc: Attack =25(45); Defence =10(25); Health =50; Carrying"
 		//	<< "0 of 130\n"
 		//	<< "Orcs are very goog at night, but poor at day" << endl;
