@@ -21,9 +21,6 @@
     <ClCompile Include="..\..\..\..\..\Desktop\cppGroup\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="classInherit.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\Desktop\cppGroup\cboard.h">

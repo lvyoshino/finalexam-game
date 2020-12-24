@@ -21,7 +21,6 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\Desktop\cppGroup\cboard.cpp" />
     <ClCompile Include="..\..\..\..\..\Desktop\cppGroup\main.cpp" />
-    <ClCompile Include="classInherit.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\Desktop\cppGroup\cboard.h" />
