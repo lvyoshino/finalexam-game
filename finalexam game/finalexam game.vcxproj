@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Desktop\cppGroup\cboard.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\cppGroup\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Desktop\cppGroup\cboard.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Desktop\cppGroup\Makefile" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,22 +148,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Combat.cpp" />
-    <ClCompile Include="FantasyGame.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Race.cpp" />
-    <ClCompile Include="Items.cpp" />
-    <ClCompile Include="showFunction.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="FantasyGame.h" />
-    <ClInclude Include="Item.h" />
-    <ClInclude Include="showFunction.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Makefile" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

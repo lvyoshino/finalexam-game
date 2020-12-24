@@ -15,39 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="..\..\..\..\..\Desktop\cppGroup\cboard.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Race.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Combat.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Items.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="showFunction.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="FantasyGame.cpp">
+    <ClCompile Include="..\..\..\..\..\Desktop\cppGroup\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FantasyGame.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="showFunction.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Item.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="..\..\..\..\..\Desktop\cppGroup\cboard.h">
+      <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Makefile">
-      <Filter>资源文件</Filter>
+    <None Include="..\..\..\..\..\Desktop\cppGroup\Makefile">
+      <Filter>源文件</Filter>
     </None>
   </ItemGroup>
 </Project>
